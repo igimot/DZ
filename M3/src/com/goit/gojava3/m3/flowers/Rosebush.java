@@ -6,5 +6,5 @@ import java.util.List;
  * Created by Oleg on 03.06.2016.
  */
 public class Rosebush {
-    List<Rose> roses;
+    private List<Rose> roses;
 }
