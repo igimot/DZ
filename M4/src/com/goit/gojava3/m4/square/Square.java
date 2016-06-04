@@ -1,4 +1,4 @@
-package DZ.M4.src.com.goit.gojava3.m4.square.square;
+package DZ.M4.src.com.goit.gojava3.m4.square;
 
 /**
  * Created by Oleg on 04.06.2016.
