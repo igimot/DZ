@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by Oleg on 04.06.2016.
  */
-public class MusicStore {
+public abstract class MusicStore {
 
     List<MusicalInstrument> musicalInstrument;
 }
