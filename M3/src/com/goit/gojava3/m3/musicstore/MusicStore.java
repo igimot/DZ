@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by Oleg on 04.06.2016.
  */
-public abstract class MusicStore {
+public class MusicStore extends  MusicalInstrument{
 
-    List<MusicalInstrument> musicalInstrument;
+    List<MusicalInstrument> musicalInstruments;
 }

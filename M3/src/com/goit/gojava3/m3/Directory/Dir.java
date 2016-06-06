@@ -7,5 +7,5 @@ import java.util.List;
  */
 public class Dir extends  File{
     public List<File> files;
-    File file;
+
 }

@@ -5,6 +5,6 @@ import java.util.List;
 /**
  * Created by Oleg on 03.06.2016.
  */
-public class Rosebush {
+public class Rosebush extends Rose {
     private List<Rose> roses;
 }
