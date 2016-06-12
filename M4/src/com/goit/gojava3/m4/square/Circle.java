@@ -1,11 +1,20 @@
-package DZ.M4.src.com.goit.gojava3.m4.square;
+package m4.figArea;
 
 /**
- * Created by Oleg on 04.06.2016.
+ * Created by Oleg on 12.06.2016.
  */
-public class Circle {
-    String squareCircif = "If R circle ";
-    int firstSideCirc = 3;
-    double squaEqualsCircl = 254.46d;
-    boolean squareCirclEquals = true;
+public class Circle extends Figure {
+
+    int rad;
+    Circle(int rad){
+        this.rad=rad;
+    }
+
+    @Override
+    public double resArea() {
+        double radCirc=Math.PI*(rad*rad);
+        return radCirc;
+    }
+
+
 }

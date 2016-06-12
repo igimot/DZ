@@ -1,12 +1,19 @@
-package DZ.M4.src.com.goit.gojava3.m4.square;
+package m4.figArea;
 
 /**
- * Created by Oleg on 04.06.2016.
+ * Created by Oleg on 12.06.2016.
  */
-public class Rectangle {
-    String squareRectIf = "If side Rectangle ";
-    int firstSideRect = 4;
-    int secondSideRect = 6;
-    int squaEqualsRect = 24;
-    boolean squareRectEquals = true;
+public class Rectangle extends Figure{
+    int aR;
+    int bR;
+
+    Rectangle(int aR, int bR){
+        this.aR=aR;
+        this.bR=bR;
+    }
+    @Override
+    public double resArea() {
+        double recArea = aR* bR;
+        return recArea;
+    }
 }

@@ -1,13 +1,19 @@
-package DZ.M4.src.com.goit.gojava3.m4.square;
+package m4.figArea;
 
 /**
- * Created by Oleg on 04.06.2016.
+ * Created by Oleg on 12.06.2016.
  */
-public class Triangle {
-    String squareTriangleIf = "If side triangle ";
-    int firstSideTriangle = 3;
-    int secondSideTriangle = 3;
-    int thirdSideTriangle = 5;
-    double squaEquals = 4.14d;
-    boolean squareTriangleEquals = true;
+public class Triangle extends Figure{
+    int aT;
+    int bT;
+
+    Triangle(int aT, int bT){
+        this.aT=aT;
+        this.bT=bT;
+    }
+    @Override
+    public double resArea() {
+        double triArea = (aT* bT)/2;
+        return triArea;
+    }
 }
