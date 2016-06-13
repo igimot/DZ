@@ -1,4 +1,4 @@
-package m4.temp2;
+package m4.temp;
 
 
 import java.util.Scanner;
@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Created by Oleg on 12.06.2016.
  */
-public class ExchangTemp2 {
+public class MainExchangTemp2 {
     public static  void main (String[] arg){
     System.out.println("Конвертер температур");
      System.out.println("Ведите температуру в цельсиях целое цисло:");
