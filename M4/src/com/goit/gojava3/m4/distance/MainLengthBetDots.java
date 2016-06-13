@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Oleg on 13.06.2016.
  */
-public class LengthBetDots {
+public class MainLengthBetDots {
     public static  void main (String[] arg){
         System.out.println("Вычисляем расстояние между двумя точками, представленными " +
                            "координатами в двумерном пространстве (x1, y1), (x2, y2).");
